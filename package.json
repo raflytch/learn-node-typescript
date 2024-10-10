@@ -1,0 +1,23 @@
+{
+  "name": "rest-api-node-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc -w",
+    "dev": "npx nodemon",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Rafly Aziz Abdillah",
+  "license": "ISC",
+  "description": "Rest API TypeScript",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
